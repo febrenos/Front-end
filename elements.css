@@ -1,0 +1,52 @@
+/*elementos abaixo do h2*/
+h2 ~ p
+
+/*primeiro elemento abaixo*/
+h2 + p
+
+/*apenas os que estao dentro somente de h2*/
+h2 > p
+
+/*todos os p menos o que tiver .divName*/
+p:not(.divName)
+
+/*pseudo de class*/
+first-child/*primeiro*/
+last-child/*ultimo*/
+nth-child(2)/*second*/
+nth-child(2n)/*even*/
+nth-child(2n+1)/*odd*/
+
+/*pseudo class por estado*/
+a:link /*all links a*/
+a:hover  /*all hover*/
+a:visited /*after click*/
+a:active /*click and press*/
+
+/*pseudo de elementos*/
+a:before{ content: '['; }
+a:after{ content: "]"; }
+
+ol{
+	list-style-type: none;
+	counter-reset: contador;
+}
+li:before{
+	content: "link "counter(contador) " - ";
+	counter-increment: contador;
+}
+
+p:first-letter
+p:first-line
+
+p{
+	text-shadow: 2px 1px 10px red, 5px 10px 15px green;
+}
+
+/*sombra externa*/
+box-shadow: 10px 10px 30px orange;/*30px(blur)*/
+/*sombra interna*/
+box-shadow: inset 0px 10px 40px ;
+
+/*gradient*/ 
+background: linear-gradient(to top right, yellow 0%, blue 40%, orange 100%);
