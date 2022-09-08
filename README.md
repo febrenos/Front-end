@@ -1,6 +1,6 @@
 # Front-end
 #### React native
-- npx crate-react-app test
+- npx create-react-app test
 - cd test
 - npm start </br>
   -node modules (library)</br>
