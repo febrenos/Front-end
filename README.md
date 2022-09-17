@@ -9,3 +9,4 @@
  
 #### OTHER CODES
  - npm i (install node-modules)
+ - npm install react react-dom (update react)
