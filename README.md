@@ -12,3 +12,4 @@
  - npm install react react-dom (update react)
 - npm install --save react-router-dom (navegation)
 - npm install --save styled-components (.js .jsx)
+- npm i --save react-icons
