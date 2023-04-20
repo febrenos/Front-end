@@ -27,7 +27,7 @@ servicos assincronos(assync methods)
 - npm install express
 
 #### Cmd node (RELP)
->>node
+> node
 os, path, fs, http, ctrl+l
 
 #### NPM
