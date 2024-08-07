@@ -1,0 +1,44 @@
+.menu {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border-radius: 10px;
+  align-items: center;
+  @media (width<720px) {
+    flex-direction: column;
+  }
+}
+
+nav {
+  display: flex;
+  float: right;
+  @media (width<720px) {
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+  }
+}
+
+nav ul {
+  /* Remove os marcadores de lista */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+  display: flex;
+}
+
+nav li {
+  margin-left: 25px; /* Espaçamento entre os itens */
+  list-style-type: none;
+}
+
+nav a {
+  font-size: 20px;
+  color: var(--base);
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #ebebebad;
+  border-radius: 5px;
+}
